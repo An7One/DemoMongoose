@@ -1,4 +1,4 @@
-import mongoose import 'mongoose'
+import mongoose from 'mongoose'
 
 let userSchema = new mongoose.Schema({
     firstName: String,
